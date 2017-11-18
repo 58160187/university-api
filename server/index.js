@@ -8,7 +8,7 @@ app.use(bodyParser.json())
 let students  = [ //สร้าง array ของ resources ที่ชื่อ students
   { id: 1, name: 'Pensupa', email: 'pensupa@gmail.com' },
   { id: 2, name: 'Su', email: 'su@gamil.com' }
-]
+] //data store
 
 app.post('/students', (req, res) => {
   let student = req.body
